@@ -1,8 +1,8 @@
-import express from 'express';
+const { express } = require('express');
 const mongoose = require('mongoose');
-import router from './routes';
+const router = require('./routes');
 const { MongoClient, ServerApiVersion } = require('mongodb');
-import { env, } from 'process';
+const env = require('process');
 
 const app = express();
 const port = env.PORT || 6000;
