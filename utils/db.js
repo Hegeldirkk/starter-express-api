@@ -66,4 +66,4 @@ class DBClient {
 
 const dbClient = new DBClient();
 
-mulde.export = dbClient;
+module.exports = dbClient;
