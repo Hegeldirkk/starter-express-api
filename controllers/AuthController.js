@@ -93,7 +93,7 @@ class AuthController {
 
 }
 
-export default AuthController;
+module.exports = AuthController;
 
 /*module.exports = {
     signup: signup

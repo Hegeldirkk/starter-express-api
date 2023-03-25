@@ -20,4 +20,4 @@ router.post('/login', AuthController.postLogin);
 router.post('/posts/create', AppController.postCreate);
 router.get('/posts', AppController.postRead);
 
-export default router;
+module.exports = router;
