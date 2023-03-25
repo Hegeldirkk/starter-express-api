@@ -1,4 +1,3 @@
-const Blog = require('../models/blog');
 const { validationResult } = require('express-validator');
 const dbClient = require('../utils/db');
 const Blog = require('../models/blog');
