@@ -1,7 +1,8 @@
-import { validationResult } from 'express-validator';
-import redisClient from '../utils/redis';
-import dbClient from '../utils/db';
 const Blog = require('../models/blog');
+const { validationResult } = require('express-validator');
+const dbClient = require('../utils/db');
+const Blog = require('../models/blog');
+
 
 
 class AppController {

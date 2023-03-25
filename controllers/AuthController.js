@@ -1,9 +1,8 @@
-import { validationResult } from 'express-validator';
-import bcrypt  from 'bcryptjs';
-import dbClient from '../utils/db';
 const User = require('../models/user');
-import { v4 as uuidv4, } from 'uuid';
-import redisClient from '../utils/redis';
+const { validationResult } = require('express-validator');
+const bcrypt  = require('bcryptjs');
+const dbClient = require('../utils/db');
+const { uuidv4, } = require('uuid');
 
 class AuthController {
 

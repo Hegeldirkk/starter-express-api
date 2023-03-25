@@ -1,9 +1,8 @@
 /*import {
   MongoClient,
 } from 'mongodb';*/
-import {
-  env,
-} from 'process';
+const env = require('process');
+
 const { MongoClient, ServerApiVersion } = require('mongodb');
 class DBClient {
   constructor() {

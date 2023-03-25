@@ -1,8 +1,6 @@
-import {
-  Router,
-} from 'express';
-import AppController from '../controllers/AppController';
-import AuthController from '../controllers/AuthController';
+const AppController = require('./controllers/AppController');
+const AuthController = require('./controllers/AuthController');
+const { Router } = require('express');
 
 const router = Router();
 
