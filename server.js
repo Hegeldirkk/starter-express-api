@@ -19,7 +19,8 @@ app.use(router);
 const host = env.DB_HOST || 'localhost';
 const portdb = env.DB_PORT || 27017;
 const dbName = env.DB_DATABASE || 'blognaija';
-const uri = "mongodb+srv://hegeldirkk:IxbLtImLTzCyrx9r@cluster0.ffolp2x.mongodb.net/?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://hegeldirkk:IxbLtImLTzCyrx9r@cluster0.ffolp2x.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://swift:Magnetic123@alx-project.fkxjfut.mongodb.net/alx-portfolio-project?retryWrites=true&w=majority";
 mongoose.connect(`${uri}`, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 })
   .then(() => {
     console.log(`Connected to MongoDB ${portdb}`);
